@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<head>
+    <title>Game center</title>
+    <link rel="icon" type="image/png" href="photo/joy.png">
+<style>
+    .container{
+      display: flex;
+      height : 550px;
+      width : 900px;
+      border: 8px solid orange;
+      margin: auto;
+      margin-top: 150px;
+      border-radius: 50px;
+    }
+    .form{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: whitesmoke;
+        width : 400px;
+        margin-left: 0px;
+        border-radius: 0 40px 40px 0;
+    }
+    .box{
+        margin:10px;
+        height: 25px;
+        width: 250px;
+        border-radius: 20px;
+        border: none;
+        padding: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .form img{
+        margin : 30px;
+    }
+    .form h2{
+       margin-bottom: 10px;
+       font-size: 30px;
+       color: orange;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .form button{
+        width: 100px;
+        height: 40px;
+        margin: 20px;
+        cursor: pointer;
+        background-color: white;
+        border-radius: 20px;
+        border: none;
+        color: black;
+        font-weight: bold ;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .form button:hover{
+        background-color: orange;
+    }
+    .form button:active{
+        background-color: brown;
+    }
+    .form a{
+        color: brown;
+        text-decoration: none;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .form a:hover{
+        color:purple;
+        text-decoration: none;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .form a:active{
+        color:orange;
+        text-decoration: none;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .side{
+        background-color: slateblue;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width : 600px;
+        border-radius: 40px 0 0 40px;
+    }
+    .side img{
+        align-items: center;
+        margin-top: 100px;
+    }
+    .side h1{
+        color: orange;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .side h3{
+        padding: 0px;
+        color:white;
+        font-weight: bold;
+    }
+    .side h4{
+        align-items: center;
+        padding: 0px;
+        color:white;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+</style>
+</head>
+<body style="background-image: url('photo/Gamerroom2.gif');"> 
+    <div class="container">
+        <div class="side">
+            <img src="photo/com.png">
+            <h1>Welcome to Game center</h1><br>
+            <h3>____________________________________________________</h3>
+            <h4>Best game center in this town</h4>
+        </div>
+        <form action="" class="form" >
+            <img src="photo/joy.png" width="90px" >
+            <h2>SIGN IN</h2>
+            <input type="email" name="email" class="box" placeholder="Enter Username or Email">
+            <input type="password" name="password" class="box" placeholder="Enter Password">
+            <button>Login</button>
+            <a href="" target="_blank" >Don't have an account?</a><br>
+            <a href="" target="_blank" >Forgot password?</a>
+         </form>
+    </div>
+</body>
+</html>
